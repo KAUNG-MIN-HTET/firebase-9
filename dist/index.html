@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1 style="text-align: center;">Getting start with firebase</h1>
+
+    <form class="add">
+        <label for="">
+            Title    
+            <input type="text" name="title" required>
+        </label>
+        <label for="">
+            Author    
+            <input type="text" name="author" required>
+        </label>
+        <button>Add Book</button>
+    </form>
+
+    <form class="delete">
+        <label for="">
+            Book id
+            <input type="text" name="id" required>
+        </label>
+        <button>Delete Book</button>
+    </form>
+
+    <form class="update">
+        <label for="">
+            Book id
+            <input type="text" name="id" required>
+        </label>
+        <button>Update Book</button>
+    </form>
+
+    <h1 style="text-align: center;">Firebase auth</h1>
+    <form class="signup">
+        <label for="">
+            Email    
+            <input type="text" name="email" required>
+        </label>
+        <label for="">
+            Password    
+            <input type="password" name="password" required>
+        </label>
+        <button>Sign Up</button>
+    </form>
+
+    <h1 style="text-align: center;">Sign in</h1>
+    <form class="signin">
+        <label for="">
+            Email    
+            <input type="text" name="email" required>
+        </label>
+        <label for="">
+            Password    
+            <input type="password" name="password" required>
+        </label>
+        <button>Sign In</button>
+    </form>
+
+    <form class="logout">
+        <button>Logout</button>
+    </form>
+
+    <h2>unsubscribing</h2>
+    <button class="unsub">Unsubscribe from db/auth changes</button>
+
+    <script src="./bundle.js"></script>
+    
+</body>
+</html>
